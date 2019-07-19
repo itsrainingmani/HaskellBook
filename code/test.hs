@@ -1,7 +1,10 @@
--- test.hs
+-- :: denotes a type signature
+sayHewwo :: String -> IO()
+sayHewwo x = putStrLn ("Hewwo, " ++ x ++ "!")
 
-module Test where
+tripleIt x = x * 3
 
-  waxOn = x * y
-    where x = y * 20
-          y = 300
+x = 7
+y = 10
+
+f = x + y

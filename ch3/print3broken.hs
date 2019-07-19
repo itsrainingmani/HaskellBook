@@ -5,8 +5,7 @@ greeting :: String
 greeting = "Yarrrr"
 
 printSecond :: IO()
-printSecond = do
-  putStrLn greeting
+printSecond = putStrLn greeting
 
 main :: IO()
 main = do

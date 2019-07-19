@@ -5,11 +5,11 @@ myGreeting :: String
 -- The above line reads: "myGreeting has the type String"
 myGreeting = "hello" ++ " world!"
 
-hello :: [Char]
+hello :: String
 -- String is a type synonym for [Char]
 hello = "hello"
 
-world :: [Char]
+world :: String
 world = "world!"
 
 -- myGreeting, hello and world are defined at the top level of the module
