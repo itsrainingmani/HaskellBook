@@ -17,6 +17,6 @@ world = "world!"
 
 main :: IO()
 main = do
-    putStrLn myGreeting
-    putStrLn secondGreeting
-    where secondGreeting = concat [hello, " ", world]
+  putStrLn myGreeting
+  putStrLn secondGreeting
+  where secondGreeting = concat [hello, " ", world]
